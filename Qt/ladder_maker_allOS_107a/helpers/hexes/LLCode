@@ -1,0 +1,54 @@
+#include <stdint.h>
+#include <stdlib.h>
+#include <string.h>
+#include <avr/io.h>
+#include <avr/interrupt.h>
+
+volatile uint8_t timerOF=0;
+inline ISR(TIMER0_OVF_vect){timerOF=1;}
+int16_t do_math(int16_t A,int16_t B,char operator)
+{
+    int32_t result = 0;
+    if (operator == '+'){result = A+B;}
+    if (operator == '-'){result = A-B;}
+    if (operator == '*'){result = A*B;}
+    if (operator == '/'){result = A/B;}
+//    if (operator == '='){result = A = B;}
+    int16_t i =  ((result >> 0) & 0xffff);
+   return i;
+}
+int main()
+{
+   DDRD |= (1<<2);
+   DDRD |= (1<<3);
+   DDRD |= (1<<4);
+   DDRD |= (1<<5);
+   DDRB |= (1<<4);
+   DDRA |= (1<<5);
+   DDRA |= (1<<6);
+   DDRA |= (1<<7);
+   DDRC |= (1<<4);
+   DDRC |= (1<<5);
+   DDRC |= (1<<6);
+   DDRC |= (1<<7);
+
+    //set up loop timer:
+    TIMSK |= (1<<TOIE0);// overflow capture enable
+    TCNT0 = 101;// start at this
+    TCCR0 |= (1<<CS02);// timer started with /256 prescaler  fills up @61 hz
+    sei();
+    uint8_t W = 1;
+    while (1)
+    {
+        if (timerOF == 1)
+        {
+           timerOF=0;//reset timer flag
+           TCNT0 = 101;// start at this
+           //inputs:
+
+            //Start of Ladder:
+           //outputs:
+
+       }
+   }
+}

@@ -1,0 +1,389 @@
+GAS LISTING /tmp/ccC6GnTE.s 			page 1
+
+
+   1               		.file	"LLCode"
+   2               	__SP_H__ = 0x3e
+   3               	__SP_L__ = 0x3d
+   4               	__SREG__ = 0x3f
+   5               	__tmp_reg__ = 0
+   6               	__zero_reg__ = 1
+   7               		.stabs	"/home/fossee/Qt/ladder_maker_allOS_107a/helpers/hexes/",100,0,2,.Ltext0
+   8               		.stabs	"LLCode",100,0,2,.Ltext0
+   9               		.text
+  10               	.Ltext0:
+  11               		.stabs	"gcc2_compiled.",60,0,0,0
+  12               		.stabs	"int:t(0,1)=r(0,1);-32768;32767;",128,0,0,0
+  13               		.stabs	"char:t(0,2)=@s8;r(0,2);0;255;",128,0,0,0
+  14               		.stabs	"long int:t(0,3)=@s32;r(0,3);020000000000;017777777777;",128,0,0,0
+  15               		.stabs	"unsigned int:t(0,4)=r(0,4);0;0177777;",128,0,0,0
+  16               		.stabs	"long unsigned int:t(0,5)=@s32;r(0,5);0;037777777777;",128,0,0,0
+  17               		.stabs	"long long int:t(0,6)=@s64;r(0,6);01000000000000000000000;0777777777777777777777;",128,0,0,
+  18               		.stabs	"long long unsigned int:t(0,7)=@s64;r(0,7);0;01777777777777777777777;",128,0,0,0
+  19               		.stabs	"short int:t(0,8)=r(0,8);-32768;32767;",128,0,0,0
+  20               		.stabs	"short unsigned int:t(0,9)=r(0,9);0;0177777;",128,0,0,0
+  21               		.stabs	"signed char:t(0,10)=@s8;r(0,10);-128;127;",128,0,0,0
+  22               		.stabs	"unsigned char:t(0,11)=@s8;r(0,11);0;255;",128,0,0,0
+  23               		.stabs	"float:t(0,12)=r(0,1);4;0;",128,0,0,0
+  24               		.stabs	"double:t(0,13)=r(0,1);4;0;",128,0,0,0
+  25               		.stabs	"long double:t(0,14)=r(0,1);4;0;",128,0,0,0
+  26               		.stabs	"void:t(0,15)=(0,15)",128,0,0,0
+  27               		.stabs	"/home/fossee/Qt/ladder_maker_allOS_107a/helpers/avr/bin/../lib/gcc/avr/4.7.2/include/stdin
+  28               		.stabs	"/home/fossee/Qt/ladder_maker_allOS_107a/helpers/avr/bin/../lib/gcc/avr/4.7.2/../../../avr/
+  29               		.stabs	"int8_t:t(2,1)=(0,10)",128,0,121,0
+  30               		.stabs	"uint8_t:t(2,2)=(0,11)",128,0,122,0
+  31               		.stabs	"int16_t:t(2,3)=(0,1)",128,0,123,0
+  32               		.stabs	"uint16_t:t(2,4)=(0,4)",128,0,124,0
+  33               		.stabs	"int32_t:t(2,5)=(0,3)",128,0,125,0
+  34               		.stabs	"uint32_t:t(2,6)=(0,5)",128,0,126,0
+  35               		.stabs	"int64_t:t(2,7)=(0,6)",128,0,128,0
+  36               		.stabs	"uint64_t:t(2,8)=(0,7)",128,0,129,0
+  37               		.stabs	"intptr_t:t(2,9)=(2,3)",128,0,142,0
+  38               		.stabs	"uintptr_t:t(2,10)=(2,4)",128,0,147,0
+  39               		.stabs	"int_least8_t:t(2,11)=(2,1)",128,0,159,0
+  40               		.stabs	"uint_least8_t:t(2,12)=(2,2)",128,0,164,0
+  41               		.stabs	"int_least16_t:t(2,13)=(2,3)",128,0,169,0
+  42               		.stabs	"uint_least16_t:t(2,14)=(2,4)",128,0,174,0
+  43               		.stabs	"int_least32_t:t(2,15)=(2,5)",128,0,179,0
+  44               		.stabs	"uint_least32_t:t(2,16)=(2,6)",128,0,184,0
+  45               		.stabs	"int_least64_t:t(2,17)=(2,7)",128,0,192,0
+  46               		.stabs	"uint_least64_t:t(2,18)=(2,8)",128,0,199,0
+  47               		.stabs	"int_fast8_t:t(2,19)=(2,1)",128,0,213,0
+  48               		.stabs	"uint_fast8_t:t(2,20)=(2,2)",128,0,218,0
+  49               		.stabs	"int_fast16_t:t(2,21)=(2,3)",128,0,223,0
+  50               		.stabs	"uint_fast16_t:t(2,22)=(2,4)",128,0,228,0
+  51               		.stabs	"int_fast32_t:t(2,23)=(2,5)",128,0,233,0
+  52               		.stabs	"uint_fast32_t:t(2,24)=(2,6)",128,0,238,0
+  53               		.stabs	"int_fast64_t:t(2,25)=(2,7)",128,0,246,0
+  54               		.stabs	"uint_fast64_t:t(2,26)=(2,8)",128,0,253,0
+  55               		.stabs	"intmax_t:t(2,27)=(2,7)",128,0,273,0
+  56               		.stabs	"uintmax_t:t(2,28)=(2,8)",128,0,278,0
+  57               		.stabn	162,0,0,0
+GAS LISTING /tmp/ccC6GnTE.s 			page 2
+
+
+  58               		.stabn	162,0,0,0
+  59               		.stabs	"/home/fossee/Qt/ladder_maker_allOS_107a/helpers/avr/bin/../lib/gcc/avr/4.7.2/../../../avr/
+  60               		.stabs	"/home/fossee/Qt/ladder_maker_allOS_107a/helpers/avr/bin/../lib/gcc/avr/4.7.2/include/stdde
+  61               		.stabs	"size_t:t(4,1)=(0,4)",128,0,213,0
+  62               		.stabs	"wchar_t:t(4,2)=(0,1)",128,0,325,0
+  63               		.stabn	162,0,0,0
+  64               		.stabs	"div_t:t(3,1)=(3,2)=s4quot:(0,1),0,16;rem:(0,1),16,16;;",128,0,71,0
+  65               		.stabs	"ldiv_t:t(3,3)=(3,4)=s8quot:(0,3),0,32;rem:(0,3),32,32;;",128,0,77,0
+  66               		.stabs	"__compar_fn_t:t(3,5)=(3,6)=*(3,7)=f(0,1)",128,0,80,0
+  67               		.stabn	162,0,0,0
+  68               		.stabs	"/home/fossee/Qt/ladder_maker_allOS_107a/helpers/avr/bin/../lib/gcc/avr/4.7.2/../../../avr/
+  69               		.stabs	"/home/fossee/Qt/ladder_maker_allOS_107a/helpers/avr/bin/../lib/gcc/avr/4.7.2/../../../avr/
+  70               		.stabs	"/home/fossee/Qt/ladder_maker_allOS_107a/helpers/avr/bin/../lib/gcc/avr/4.7.2/../../../avr/
+  71               		.stabs	"int_farptr_t:t(7,1)=(2,5)",128,0,77,0
+  72               		.stabs	"uint_farptr_t:t(7,2)=(2,6)",128,0,81,0
+  73               		.stabn	162,0,0,0
+  74               		.stabn	162,0,0,0
+  75               		.stabs	"/home/fossee/Qt/ladder_maker_allOS_107a/helpers/avr/bin/../lib/gcc/avr/4.7.2/../../../avr/
+  76               		.stabs	"__fuse_t:t(8,1)=(8,2)=s2low:(0,11),0,8;high:(0,11),8,8;;",128,0,252,0
+  77               		.stabn	162,0,0,0
+  78               		.stabn	162,0,0,0
+  79               		.stabs	"__vector_11:F(0,15)",36,0,8,__vector_11
+  80               	.global	__vector_11
+  81               		.type	__vector_11, @function
+  82               	__vector_11:
+  83               		.stabd	46,0,0
+   1:LLCode        **** #include <stdint.h>
+   2:LLCode        **** #include <stdlib.h>
+   3:LLCode        **** #include <string.h>
+   4:LLCode        **** #include <avr/io.h>
+   5:LLCode        **** #include <avr/interrupt.h>
+   6:LLCode        **** 
+   7:LLCode        **** volatile uint8_t timerOF=0;
+   8:LLCode        **** inline ISR(TIMER0_OVF_vect){timerOF=1;}
+  84               		.stabn	68,0,8,.LM0-.LFBB1
+  85               	.LM0:
+  86               	.LFBB1:
+  87 0000 1F92      		push r1
+  88 0002 0F92      		push r0
+  89 0004 0FB6      		in r0,__SREG__
+  90 0006 0F92      		push r0
+  91 0008 1124      		clr __zero_reg__
+  92 000a 8F93      		push r24
+  93               	/* prologue: Signal */
+  94               	/* frame size = 0 */
+  95               	/* stack size = 4 */
+  96               	.L__stack_usage = 4
+  97               		.stabn	68,0,8,.LM1-.LFBB1
+  98               	.LM1:
+  99 000c 81E0      		ldi r24,lo8(1)
+ 100 000e 8093 0000 		sts timerOF,r24
+ 101               	/* epilogue start */
+ 102 0012 8F91      		pop r24
+ 103 0014 0F90      		pop r0
+ 104 0016 0FBE      		out __SREG__,r0
+ 105 0018 0F90      		pop r0
+ 106 001a 1F90      		pop r1
+GAS LISTING /tmp/ccC6GnTE.s 			page 3
+
+
+ 107 001c 1895      		reti
+ 108               		.size	__vector_11, .-__vector_11
+ 109               	.Lscope1:
+ 110               		.stabs	"",36,0,0,.Lscope1-.LFBB1
+ 111               		.stabd	78,0,0
+ 112               		.stabs	"do_math:F(2,3)",36,0,9,do_math
+ 113               		.stabs	"A:P(2,3)",64,0,9,24
+ 114               		.stabs	"B:P(2,3)",64,0,9,22
+ 115               		.stabs	"operator:P(0,2)",64,0,9,20
+ 116               	.global	do_math
+ 117               		.type	do_math, @function
+ 118               	do_math:
+ 119               		.stabd	46,0,0
+   9:LLCode        **** int16_t do_math(int16_t A,int16_t B,char operator)
+  10:LLCode        **** {
+ 120               		.stabn	68,0,10,.LM2-.LFBB2
+ 121               	.LM2:
+ 122               	.LFBB2:
+ 123               	/* prologue: function */
+ 124               	/* frame size = 0 */
+ 125               	/* stack size = 0 */
+ 126               	.L__stack_usage = 0
+  11:LLCode        ****     int32_t result = 0;
+  12:LLCode        ****     if (operator == '+'){result = A+B;}
+ 127               		.stabn	68,0,12,.LM3-.LFBB2
+ 128               	.LM3:
+ 129 001e 4B32      		cpi r20,lo8(43)
+ 130 0020 01F4      		brne .L3
+ 131               		.stabn	68,0,12,.LM4-.LFBB2
+ 132               	.LM4:
+ 133 0022 AC01      		movw r20,r24
+ 134 0024 460F      		add r20,r22
+ 135 0026 571F      		adc r21,r23
+ 136 0028 00C0      		rjmp .L8
+ 137               	.L3:
+  13:LLCode        ****     if (operator == '-'){result = A-B;}
+ 138               		.stabn	68,0,13,.LM5-.LFBB2
+ 139               	.LM5:
+ 140 002a 4D32      		cpi r20,lo8(45)
+ 141 002c 01F4      		brne .L5
+ 142               		.stabn	68,0,13,.LM6-.LFBB2
+ 143               	.LM6:
+ 144 002e AC01      		movw r20,r24
+ 145 0030 461B      		sub r20,r22
+ 146 0032 570B      		sbc r21,r23
+ 147 0034 00C0      		rjmp .L8
+ 148               	.L5:
+  14:LLCode        ****     if (operator == '*'){result = A*B;}
+ 149               		.stabn	68,0,14,.LM7-.LFBB2
+ 150               	.LM7:
+ 151 0036 4A32      		cpi r20,lo8(42)
+ 152 0038 01F4      		brne .L6
+ 153               		.stabn	68,0,14,.LM8-.LFBB2
+ 154               	.LM8:
+ 155 003a 869F      		mul r24,r22
+ 156 003c A001      		movw r20,r0
+ 157 003e 879F      		mul r24,r23
+GAS LISTING /tmp/ccC6GnTE.s 			page 4
+
+
+ 158 0040 500D      		add r21,r0
+ 159 0042 969F      		mul r25,r22
+ 160 0044 500D      		add r21,r0
+ 161 0046 1124      		clr r1
+ 162               	.L8:
+ 163 0048 6627      		clr r22
+ 164 004a 57FD      		sbrc r21,7
+ 165 004c 6095      		com r22
+ 166 004e 762F      		mov r23,r22
+ 167 0050 00C0      		rjmp .L4
+ 168               	.L6:
+  15:LLCode        ****     if (operator == '/'){result = A/B;}
+ 169               		.stabn	68,0,15,.LM9-.LFBB2
+ 170               	.LM9:
+ 171 0052 4F32      		cpi r20,lo8(47)
+ 172 0054 01F4      		brne .L7
+ 173               		.stabn	68,0,15,.LM10-.LFBB2
+ 174               	.LM10:
+ 175 0056 0E94 0000 		call __divmodhi4
+ 176 005a AB01      		movw r20,r22
+ 177 005c 6627      		clr r22
+ 178 005e 57FD      		sbrc r21,7
+ 179 0060 6095      		com r22
+ 180 0062 762F      		mov r23,r22
+ 181 0064 00C0      		rjmp .L4
+ 182               	.L7:
+  11:LLCode        ****     int32_t result = 0;
+ 183               		.stabn	68,0,11,.LM11-.LFBB2
+ 184               	.LM11:
+ 185 0066 40E0      		ldi r20,0
+ 186 0068 50E0      		ldi r21,0
+ 187 006a BA01      		movw r22,r20
+ 188               	.L4:
+  16:LLCode        **** //    if (operator == '='){result = A = B;}
+  17:LLCode        ****     int16_t i =  ((result >> 0) & 0xffff);
+  18:LLCode        ****    return i;
+  19:LLCode        **** }
+ 189               		.stabn	68,0,19,.LM12-.LFBB2
+ 190               	.LM12:
+ 191 006c CA01      		movw r24,r20
+ 192 006e 0895      		ret
+ 193               		.size	do_math, .-do_math
+ 194               		.stabs	"result:r(2,5)",64,0,11,20
+ 195               		.stabn	192,0,0,.LFBB2-.LFBB2
+ 196               		.stabn	224,0,0,.Lscope2-.LFBB2
+ 197               	.Lscope2:
+ 198               		.stabs	"",36,0,0,.Lscope2-.LFBB2
+ 199               		.stabd	78,0,0
+ 200               		.section	.text.startup,"ax",@progbits
+ 201               		.stabs	"main:F(0,1)",36,0,20,main
+ 202               	.global	main
+ 203               		.type	main, @function
+ 204               	main:
+ 205               		.stabd	46,0,0
+  20:LLCode        **** int main()
+  21:LLCode        **** {
+ 206               		.stabn	68,0,21,.LM13-.LFBB3
+GAS LISTING /tmp/ccC6GnTE.s 			page 5
+
+
+ 207               	.LM13:
+ 208               	.LFBB3:
+ 209               	/* prologue: function */
+ 210               	/* frame size = 0 */
+ 211               	/* stack size = 0 */
+ 212               	.L__stack_usage = 0
+  22:LLCode        ****    DDRD |= (1<<2);
+ 213               		.stabn	68,0,22,.LM14-.LFBB3
+ 214               	.LM14:
+ 215 0000 8A9A      		sbi 0x11,2
+  23:LLCode        ****    DDRD |= (1<<3);
+ 216               		.stabn	68,0,23,.LM15-.LFBB3
+ 217               	.LM15:
+ 218 0002 8B9A      		sbi 0x11,3
+  24:LLCode        ****    DDRD |= (1<<4);
+ 219               		.stabn	68,0,24,.LM16-.LFBB3
+ 220               	.LM16:
+ 221 0004 8C9A      		sbi 0x11,4
+  25:LLCode        ****    DDRD |= (1<<5);
+ 222               		.stabn	68,0,25,.LM17-.LFBB3
+ 223               	.LM17:
+ 224 0006 8D9A      		sbi 0x11,5
+  26:LLCode        ****    DDRB |= (1<<4);
+ 225               		.stabn	68,0,26,.LM18-.LFBB3
+ 226               	.LM18:
+ 227 0008 BC9A      		sbi 0x17,4
+  27:LLCode        ****    DDRA |= (1<<5);
+ 228               		.stabn	68,0,27,.LM19-.LFBB3
+ 229               	.LM19:
+ 230 000a D59A      		sbi 0x1a,5
+  28:LLCode        ****    DDRA |= (1<<6);
+ 231               		.stabn	68,0,28,.LM20-.LFBB3
+ 232               	.LM20:
+ 233 000c D69A      		sbi 0x1a,6
+  29:LLCode        ****    DDRA |= (1<<7);
+ 234               		.stabn	68,0,29,.LM21-.LFBB3
+ 235               	.LM21:
+ 236 000e D79A      		sbi 0x1a,7
+  30:LLCode        ****    DDRC |= (1<<4);
+ 237               		.stabn	68,0,30,.LM22-.LFBB3
+ 238               	.LM22:
+ 239 0010 A49A      		sbi 0x14,4
+  31:LLCode        ****    DDRC |= (1<<5);
+ 240               		.stabn	68,0,31,.LM23-.LFBB3
+ 241               	.LM23:
+ 242 0012 A59A      		sbi 0x14,5
+  32:LLCode        ****    DDRC |= (1<<6);
+ 243               		.stabn	68,0,32,.LM24-.LFBB3
+ 244               	.LM24:
+ 245 0014 A69A      		sbi 0x14,6
+  33:LLCode        ****    DDRC |= (1<<7);
+ 246               		.stabn	68,0,33,.LM25-.LFBB3
+ 247               	.LM25:
+ 248 0016 A79A      		sbi 0x14,7
+  34:LLCode        **** 
+  35:LLCode        ****     //set up loop timer:
+  36:LLCode        ****     TIMSK |= (1<<TOIE0);// overflow capture enable
+GAS LISTING /tmp/ccC6GnTE.s 			page 6
+
+
+ 249               		.stabn	68,0,36,.LM26-.LFBB3
+ 250               	.LM26:
+ 251 0018 89B7      		in r24,0x39
+ 252 001a 8160      		ori r24,lo8(1)
+ 253 001c 89BF      		out 0x39,r24
+  37:LLCode        ****     TCNT0 = 101;// start at this
+ 254               		.stabn	68,0,37,.LM27-.LFBB3
+ 255               	.LM27:
+ 256 001e 85E6      		ldi r24,lo8(101)
+ 257 0020 82BF      		out 0x32,r24
+  38:LLCode        ****     TCCR0 |= (1<<CS02);// timer started with /256 prescaler  fills up @61 hz
+ 258               		.stabn	68,0,38,.LM28-.LFBB3
+ 259               	.LM28:
+ 260 0022 83B7      		in r24,0x33
+ 261 0024 8460      		ori r24,lo8(4)
+ 262 0026 83BF      		out 0x33,r24
+  39:LLCode        ****     sei();
+ 263               		.stabn	68,0,39,.LM29-.LFBB3
+ 264               	.LM29:
+ 265               	/* #APP */
+ 266               	 ;  39 "LLCode" 1
+ 267 0028 7894      		sei
+ 268               	 ;  0 "" 2
+  40:LLCode        ****     uint8_t W = 1;
+  41:LLCode        ****     while (1)
+  42:LLCode        ****     {
+  43:LLCode        ****         if (timerOF == 1)
+  44:LLCode        ****         {
+  45:LLCode        ****            timerOF=0;//reset timer flag
+  46:LLCode        ****            TCNT0 = 101;// start at this
+ 269               		.stabn	68,0,46,.LM30-.LFBB3
+ 270               	.LM30:
+ 271               	/* #NOAPP */
+ 272 002a 85E6      		ldi r24,lo8(101)
+ 273               	.L14:
+  43:LLCode        ****         if (timerOF == 1)
+ 274               		.stabn	68,0,43,.LM31-.LFBB3
+ 275               	.LM31:
+ 276 002c 9091 0000 		lds r25,timerOF
+ 277 0030 9130      		cpi r25,lo8(1)
+ 278 0032 01F4      		brne .L14
+  45:LLCode        ****            timerOF=0;//reset timer flag
+ 279               		.stabn	68,0,45,.LM32-.LFBB3
+ 280               	.LM32:
+ 281 0034 1092 0000 		sts timerOF,__zero_reg__
+ 282               		.stabn	68,0,46,.LM33-.LFBB3
+ 283               	.LM33:
+ 284 0038 82BF      		out 0x32,r24
+ 285 003a 00C0      		rjmp .L14
+ 286               		.size	main, .-main
+ 287               	.Lscope3:
+ 288               		.stabs	"",36,0,0,.Lscope3-.LFBB3
+ 289               		.stabd	78,0,0
+ 290               	.global	timerOF
+ 291               		.section .bss
+ 292               		.type	timerOF, @object
+ 293               		.size	timerOF, 1
+GAS LISTING /tmp/ccC6GnTE.s 			page 7
+
+
+ 294               	timerOF:
+ 295 0000 00        		.zero	1
+ 296               		.stabs	"timerOF:G(0,16)=B(2,2)",32,0,7,0
+ 297               		.text
+ 298               		.stabs	"",100,0,0,.Letext0
+ 299               	.Letext0:
+ 300               		.ident	"GCC: (GNU) 4.7.2"
+ 301               	.global __do_clear_bss
+GAS LISTING /tmp/ccC6GnTE.s 			page 8
+
+
+DEFINED SYMBOLS
+                            *ABS*:00000000 LLCode
+     /tmp/ccC6GnTE.s:2      *ABS*:0000003e __SP_H__
+     /tmp/ccC6GnTE.s:3      *ABS*:0000003d __SP_L__
+     /tmp/ccC6GnTE.s:4      *ABS*:0000003f __SREG__
+     /tmp/ccC6GnTE.s:5      *ABS*:00000000 __tmp_reg__
+     /tmp/ccC6GnTE.s:6      *ABS*:00000001 __zero_reg__
+     /tmp/ccC6GnTE.s:82     .text:00000000 __vector_11
+     /tmp/ccC6GnTE.s:294    .bss:00000000 timerOF
+     /tmp/ccC6GnTE.s:118    .text:0000001e do_math
+     /tmp/ccC6GnTE.s:204    .text.startup:00000000 main
+
+UNDEFINED SYMBOLS
+__divmodhi4
+__do_clear_bss

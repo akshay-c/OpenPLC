@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Project SYSTEM "Project-4.6.dtd">
+<!-- eric4 project file for project OpenPLC -->
+<!-- Saved: 2015-01-16, 14:33:03 -->
+<!-- Copyright (C) 2015 ,  -->
+<Project version="4.6">
+  <Language>en</Language>
+  <ProgLanguage mixed="0">Python</ProgLanguage>
+  <ProjectType>Qt4</ProjectType>
+  <Description></Description>
+  <Version>0.1</Version>
+  <Author></Author>
+  <Email></Email>
+  <Sources>
+    <Source>program/main.py</Source>
+    <Source>program/bb_setup.py</Source>
+    <Source>program/managegrid.py</Source>
+    <Source>program/audrinotest.py</Source>
+    <Source>program/timeout_subprocess.py</Source>
+    <Source>program/USBHelp_ui.py</Source>
+    <Source>program/timer_ui.py</Source>
+    <Source>program/main.app/Contents/Resources/__argvemulator_main.py</Source>
+    <Source>program/main.app/Contents/Resources/main.py</Source>
+    <Source>program/math_ui.py</Source>
+    <Source>program/compair_ui.py</Source>
+    <Source>program/edge_ui.py</Source>
+    <Source>program/ADC_ui.py</Source>
+    <Source>program/popupDialogs.py</Source>
+    <Source>program/ardIOnote_ui.py</Source>
+    <Source>program/LadderToOutLine.py</Source>
+    <Source>program/wrongVersion_ui.py</Source>
+    <Source>program/mainwindow_ui.py</Source>
+    <Source>program/hexmaker.py</Source>
+    <Source>program/IOHelp_ui.py</Source>
+    <Source>program/move_ui.py</Source>
+    <Source>program/OutLineToC.py</Source>
+    <Source>program/cont_ui.py</Source>
+    <Source>program/toolbaricons_rc.py</Source>
+    <Source>program/PWM_ui.py</Source>
+    <Source>program/compile_ui_stuff.py</Source>
+    <Source>program/counter_ui.py</Source>
+    <Source>program/tester.py</Source>
+    <Source>program/coil_ui.py</Source>
+    <Source>program/Ui_mainwindow.py</Source>
+  </Sources>
+  <Forms>
+    <Form>program/math.ui</Form>
+    <Form>program/compair.ui</Form>
+    <Form>program/PWM.ui</Form>
+    <Form>program/ardIOnote.ui</Form>
+    <Form>program/edge.ui</Form>
+    <Form>program/ADC.ui</Form>
+    <Form>program/USBHelp.ui</Form>
+    <Form>program/coil.ui</Form>
+    <Form>program/mainwindow.ui</Form>
+    <Form>program/wrongVersion.ui</Form>
+    <Form>program/IOHelp.ui</Form>
+    <Form>program/counter.ui</Form>
+    <Form>program/cont.ui</Form>
+    <Form>program/timer.ui</Form>
+    <Form>program/move.ui</Form>
+  </Forms>
+  <Translations>
+  </Translations>
+  <Resources>
+    <Resource>program/toolbaricons.qrc</Resource>
+  </Resources>
+  <Interfaces>
+  </Interfaces>
+  <Others>
+  </Others>
+  <MainScript>program/main.py</MainScript>
+  <Vcs>
+    <VcsType>None</VcsType>
+  </Vcs>
+  <FiletypeAssociations>
+    <FiletypeAssociation pattern="*.ui" type="FORMS" />
+    <FiletypeAssociation pattern="*.idl" type="INTERFACES" />
+    <FiletypeAssociation pattern="*.qm" type="TRANSLATIONS" />
+    <FiletypeAssociation pattern="*.ptl" type="SOURCES" />
+    <FiletypeAssociation pattern="*.pyw" type="SOURCES" />
+    <FiletypeAssociation pattern="*.ui.h" type="FORMS" />
+    <FiletypeAssociation pattern="*.ts" type="TRANSLATIONS" />
+    <FiletypeAssociation pattern="*.py" type="SOURCES" />
+    <FiletypeAssociation pattern="*.qrc" type="RESOURCES" />
+  </FiletypeAssociations>
+</Project>
